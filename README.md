@@ -1,9 +1,16 @@
 # Binance Futures Testnet — Trading Bot
 
+This project was built with a focus on clean architecture, reliability, and handling real-world API edge cases such as minimum notional requirements and insufficient margin.
+
 A clean, modular CLI bot for placing **MARKET** and **LIMIT** orders on the
 Binance USDT-M **Futures Testnet**. No real money is used.
 
 ---
+## Notes
+
+- Binance requires a minimum notional value (~$100) for orders
+- Insufficient margin errors can occur on larger quantities
+- Orders may remain in NEW status until matched in market
 
 ## Project Structure
 
